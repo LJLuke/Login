@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/twelve"
+    android:orientation="vertical"
+    tools:context="com.example.lijiang.login.ForgetPassWordActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null">
+        <Button
+            android:id="@+id/back_button"
+            android:background="@null"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/ic_keyboard_backspace_black_24dp"/>
+    </android.support.v7.widget.Toolbar>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="#339933"
+    android:layout_margin="70dp"
+    android:textSize="50dp"
+    android:text="@string/find_password"
+    />
+    <EditText
+        android:id="@+id/find_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#999999"
+        android:layout_marginTop="0dp"
+        android:hint="@string/used_username"
+        android:textColorHint="#1A1A1A"
+        />
+    <Button
+        android:background="@null"
+        android:id="@+id/find_password_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/find_password"
+        android:textColor="#339933"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+</LinearLayout>
